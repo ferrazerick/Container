@@ -17,8 +17,23 @@ Este projeto é uma demonstração técnica de uma arquitetura de layout escalá
   ```tsx
     <Container.Row size={3}>
       <Button>
-    </ Container.Row>
+    </Container.Row>
   ```
 - O botão ocupará na tela o espaço esquivalente a 3 colunas + 2 gaps
 - Ao utilizar `Container.Row` ou `Container.Column` o código se torna autoexplicativo, o que reduz a curva de aprendizado e agiliza na contrução de telas, visto que o desenvolver precisa "pensar menos" no que usar.
-- 
+
+
+#### Como rodar o projeto?
+1. Clone este respositório em sua máquina
+  ```shell
+      git clone https://github.com/ferrazerick/Container.git
+  ```
+3. Instale as dependências
+  ```shell
+      yarn install
+  ```
+4. Inicie o projeto
+  ```shell
+      npm run web
+  ```
+6. Se quiser fazer testes, bastar alterar o arquivo `App.tsx` e recarregar a página.
