@@ -4,7 +4,7 @@ Este projeto é uma demonstração técnica de uma arquitetura de layout escalá
 - React Native com Expo
 - TypeScript
 - Styled Components
-- Atomic Design / Modular Architeture - Esturtura de pastas organizadas para marior escalabilidade.
+- Atomic Design / Modular Architeture - Estrutura de pastas organizadas para marior escalabilidade.
 
 #### Arquitetura do sistema de Grid
 - O foco do projeto é o componente Container, que faz a abstração da complexidade do Flexbox em uma API declarativa.
